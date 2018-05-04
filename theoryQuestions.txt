@@ -1,0 +1,30 @@
+Q4. Ans
+
+	Advantages of Node.js are :-
+
+	- easy to learn.
+	- active community.
+	- simultaneous request handling:- Node.js provides the non-blocking IO system that lets you process numerous requests concurrently. The system makes simultaneous request handling and Incoming requests are queued up and executed sequentially in a fast manner. In effect your app will take up much less system RAM, achieve high scalability levels and in a result will perform faster.
+
+	Disadvantages of Node.js are :-
+
+	 -Unstable API
+
+	  it lacks consistency. Node.js’ API changes frequently, and the changes are often backward-incompatible. When this happens, programmers are forced to make changes to the existing code base to make it compatible with the latest version of the Node.js API.
+
+	 -not suitable for cpu intensive tasks.
+
+	 -can't fully trust the third-party node_modules.
+	   Even though, the core Node.js is stable, many packages in the npm registry (pre-installed node package manager that organises the installation and management of third-party Node.js programs) are still of poor quality or have not been properly documented.
+
+Q5. Ans
+
+    MySQL uses schemas to define the database structure, requiring that all rows within a table have the same structure with values being represented by a specific data type.
+
+    MongoDB is schema-free, allowing you to create documents without having to define the structure of the document first. These documents can be easily changed by adding or deleting fields.
+
+    MySQL can be subject to SQL injection attacks, making it vulnerable. Since MongoDB uses object querying, where documents are passed to explain what is being queried, it reduces the risk of attack as MongoDB doesn’t have a language to parse.
+
+     In MySQL, a table can degrade if it goes over 10 GB, MongoDB does not have this issue.
+
+     Write load is high- For an environment that has many writes compared to reads, MongoDB can be a good choice. MongoDB was written to allow a high insert rate and doesn't have to worry about transaction safety, unlike MySQL.
